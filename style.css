@@ -1,0 +1,54 @@
+.nav-link {
+    color: #7D7D7D;
+font-family: Playfair Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.nav-link:hover {
+    color: #03A9F4;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list-item:first-child {
+    background-color: gray;
+    width: 300px;
+}
+
+.list-item:nth-child(even) {
+    background-color: aqua;
+    width: 500px;
+}
+
+.list-item:nth-child(odd) {
+    background-color: blue;
+    width: 500px;
+}
+
+.list-item:last-child {
+    background-color: firebrick;
+    width: 800px;
+}
+
+.list-item:nth-child(4n+2) {
+    background-color: black;
+    width: 500px;
+}
+
+.button:focus {
+    outline: none;
+    border: 10px solid red;
+}
+
+.list-item p {
+    color:#03A9F4
+}
